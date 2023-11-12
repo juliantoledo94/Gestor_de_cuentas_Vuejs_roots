@@ -5,6 +5,7 @@ import IngresarView from '../views/IngresarView.vue'
 import VerView from '../views/VerView.vue'
 import AplicacionesView from '../views/AplicacionesView.vue'
 
+
 Vue.use(VueRouter)
 
 const routes = [

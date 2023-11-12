@@ -199,7 +199,7 @@
           recuperarApp: function(){
                       
           this.i = this.$route.params.id;
-          this.e = this.$route.params.estreno
+          
   
           console.log(this.i + " ")
   

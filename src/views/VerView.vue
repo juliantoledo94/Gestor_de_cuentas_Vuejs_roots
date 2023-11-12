@@ -13,6 +13,7 @@
               <p class="card-text">Contraseña:{{ dato.password }}</p>
               <button class="btn btn-danger" @click="eliminarDato(index)">Eliminar</button>
               
+              
             </div>
           </div>
         </div>
