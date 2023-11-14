@@ -1,6 +1,8 @@
 <template>
   <div class="home">
-    <img class="container" alt="Logo del Cofre" src="../assets/cofre.png">
+    <div class="container m-0 d-flex justify-content-center">
+      <img  alt="Logo del Cofre" src="../assets/cofre.png" id="cofre">
+    </div>
     <h2 class="d-flex justify-content-center  cherryBomb pb-2 mb-4  border-bottom border-warning">Información Sobre las Aplicaciones</h2>
     <DetallesComponent/>
   </div>
@@ -19,7 +21,8 @@ export default {
 </script>
 
 <style>
+#cofre{
+  height: 500px;
 
-
-
+}
 </style>

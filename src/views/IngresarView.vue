@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="container">
             <h2 class="d-flex justify-content-center  cherryBomb pb-2 mb-4  border-bottom border-warning">Complete el formulario</h2>
             <form v-on:submit.prevent class="container d-flex justify-content-center mt-5 p-5">
             <div>
